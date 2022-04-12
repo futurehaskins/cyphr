@@ -1,0 +1,24 @@
+#!/usr/bin/env xonsh
+
+#imports here
+
+#Variables here
+encrypt = $ARG1 # parse for -c or -d
+sourcefile = $ARG2 #/path/to/file.txt
+targetfile = $ARG3 #/path/to/file.txt
+
+#Read sourcefile
+
+#Loop over every letter, (en/de)crypting the text; see 'cypher in python' on YT
+
+#Loop over every word, checking for spelling exceptions, correcting; see 'Jackson Crawford' on YT
+
+#Output to targetfile
+
+#ROADMAP:
+#Allow futhark distinctions as an argument input: -y for Y.F.; -a for A.S.F.; -e for E.F. via ON/OI/OE
+
+#Write def functions() for each sub-language; inlcude Enlgish, OE, ON, OI texts; check versus dictionary database for easy-enough translations
+
+#Recognize new words/definitions; cross-references online dictionaries/etymology/trasnlation-dictionaries; writes to database file, building new translations the more we use it. 
+#Some tans-dicts already in GDrive (raw pdf); build out further with already-translated texts via online sources; cross-reference other translations (online if available; taken as input file??)
